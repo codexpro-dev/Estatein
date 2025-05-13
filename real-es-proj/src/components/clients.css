@@ -1,0 +1,25 @@
+.ft-labell{
+    display: flex;
+    align-items: center;
+}
+
+.lb-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.lb-txt h4{
+ padding-bottom: 1px !important;
+ padding-top: 0 !important;
+}
+
+.lb-txt p{
+ margin-top: 1px !important;
+ padding-top: 0;
+ background-color: #ffffff00;
+ border: none;
+}
