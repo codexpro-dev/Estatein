@@ -37,7 +37,7 @@ const Clients = () => {
               <div className="ft-row-txt">
                 <h3>Exceptional Service!</h3>
                 <p>
-                  Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!
+                  Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly <br /> recommended!
                 </p>
               </div>
               <div className="ft-label">
@@ -46,7 +46,7 @@ const Clients = () => {
                 </div>
                 <div className="lb-txt">
                   <h4>Charity Mishopy</h4>
-                  <h5>USA, Califonia</h5>
+                  <p>USA, Califonia</p>
                 </div>
               </div>
             </div>
@@ -55,9 +55,9 @@ const Clients = () => {
                 <img src={ratings} alt="" />
               </div>
               <div className="ft-row-txt">
-                <h3>Exceptional Service!</h3>
+                <h3>Efficient and Reliable</h3>
                 <p>
-                  Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!
+                  Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the <br /> results.
                 </p>
               </div>
               <div className="ft-label">
@@ -66,7 +66,7 @@ const Clients = () => {
                 </div>
                 <div className="lb-txt">
                   <h4>Chief Lopes</h4>
-                  <h5>London City </h5>
+                  <p>London City </p>
                 </div>
               </div>
             </div>
@@ -75,15 +75,15 @@ const Clients = () => {
                 <img src={ratings} alt="" />
               </div>
               <div className="ft-row-txt">
-                <h3>Exceptional Service!</h3>
+                <h3>Trusted Advisors</h3>
                 <p>
-                  Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!
+                  The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. <br /> Thank you for your support!
                 </p>
               </div>
               <div className="ft-labell">
-                {/* <div className="lb-pro"> */}
+                <div className="lb-pro">
                   <img src={proPics3} alt="" />
-                {/* </div> */}
+                </div>
                 <div className="lb-txt">
                   <h4>Codexpro Dev</h4>
                   <p>US, Canadaaa</p>
