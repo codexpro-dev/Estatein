@@ -2,10 +2,7 @@ import React from "react";
 import "../components/hero.css";
 import HeroImg from "../resources/h-img.svg";
 import HeroImg1 from "../resources/img-shop.svg";
-import HeroImg2 from "../resources/img-snap.svg";
-import HeroImg3 from "../resources/img-build.svg";
-import HeroImg4 from "../resources/img-shine.svg";
-import HeroImg5 from "../resources/h-arrow2.svg";
+import Dream from "../resources/Sub Container.png";
 
 const Hero = () => {
   return (
@@ -20,8 +17,10 @@ const Hero = () => {
               Your journey to finding the perfect property begins here. Explore
               our listings to find <br /> the home that matches your dreams.
             </p>
-            <button>Learn More</button>
+            <div className="h-btn">
+              <button>Learn More</button>
             <button className="hbtn">Browse Properties</button>
+            </div>
             <div className="reviews">
               <div className="row one">
                 <h2>200+</h2>
@@ -40,6 +39,7 @@ const Hero = () => {
         </div>
         <div className="hero-img">
           <img src={HeroImg} alt="" />
+          <img src={Dream} className="dream" alt="" />
         </div>
       </div>
       <div className="review">

@@ -59,6 +59,10 @@
   background-size: cover;
 }
 
+.hero-container .dream{
+    display: none;
+}
+
 .reviews {
   display: flex;
   margin-top: 2rem;
@@ -249,7 +253,7 @@
   .reviews {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 10px;
     text-align: center;
   }
 
@@ -266,24 +270,86 @@
   .hero-container {
     background-image: none;
     background-color: rgba(14, 13, 13, 0.836);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    padding-bottom: 6rem;
+    padding: 0;
+    padding-bottom: 9rem;
+    /* margin-bottom: 11rem; */
     flex-direction: column;
+    height: 100%;
+  }
 
+  .hero-text{
+    order: 2;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    padding: 0 1rem;
+  }
+
+  .hero-text p{
+    font-size: 17px;
+  }
+
+  .hero-text h1{
+    color: white;
+  }
+
+  .h-btn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .h-btn button{
+    padding: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
 
   .hero-img{
     display: flex;
+    flex-direction: column;
     position: relative;
+    order: 1;
+    padding: 0;
+    margin: 0;
+    padding: 3rem 1rem 1rem 1rem;
+    bottom: 0;
   }
 
   .hero-img img{
-    position: relative;
-    width: 80%;
+    display: block;
+    width: 100%;
+    border-radius: 20px;
   }
+
+  .hero-img .dream{
+    width: 30%;
+    left: 0;
+    margin-top: -3.7rem;
+    margin-bottom: 0;
+  }
+
+  .review{
+    display: flex;
+    flex-direction: row;
+    height: 11rem;
+    /* grid-template-columns: repeat(2, 0.45fr); */
+  }
+
+  .rows{
+    padding: 0;
+    padding: 10px;
+    width: 100%;
+    height: 5rem;
+    margin: 5px 5px;
+}
+
+.rows p{
+    font-size: 12px;
+}
+
+.rows-img img{
+    width: 2.5rem;
+}
 
 }
