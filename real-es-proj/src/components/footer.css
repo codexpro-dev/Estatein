@@ -32,7 +32,7 @@
   font-weight: 500;
   font-size: 12px;
   color: white;
-  background-color: rgb(24, 12, 241);;
+  background-color: rgb(24, 12, 241);
   margin-right: 10px;
   padding: 1.2em 1em;
   transition: 0.3s ease;
@@ -65,4 +65,139 @@ margin-top: -1.5rem;
 footer{
   background-color: rgba(14, 13, 13, 0.836);
   margin-top: 0rem;
+  padding: 5rem;
+}
+
+.f-logo{
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.lt{
+  position: relative;
+  display: flex;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.126);
+  border-radius: 10px;
+  padding: 8px 10px;
+  align-items: center;
+  justify-content: flex-start;
+  transition: .5s ease;
+}
+
+.lt span {
+  border: none;
+  background: transparent;
+  padding: 0;
+  padding-right: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lt span img{
+  width: 1.4rem;
+  margin-bottom: 1px;
+}
+
+.lt button {
+  background: transparent;
+  border: none;
+  padding: 5px;
+  margin-right: -1rem;
+  margin-left: 4px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.lt button img{
+  width: 1.3rem;
+}
+
+.lt input {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.lt:hover{
+border: 1px solid rgba(255, 255, 255, 0.772);
+}
+
+.lt button:hover{
+  background-color: rgba(12, 7, 104, 0.655);
+}
+
+.footer-cont{
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.footer-logo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footer-txt{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-txt h4{
+  color: rgba(255, 255, 255, 0.687);
+  font-weight: normal;
+}
+
+.footer-txt p{
+  color: white;
+  cursor: pointer;
+  padding: -10px;
+  font-size: 14px;
+}
+
+.footer-txt p:hover{
+  color: rgb(95, 90, 240);
+}
+
+.ftr{
+  padding-right: 4rem;
+}
+
+.copy-write{
+  background-color: rgba(18, 16, 16, 0.541);
+  display: flex;
+  padding: 10px 5rem;
+  justify-content: space-between;
+}
+
+.copy-write p{
+  font-size: 13px;
+  color: rgb(95, 90, 240);
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.copy{
+  width: 100%;
+  display: flex;
+}
+
+.copy span{
+  padding-right: 10px;
+  color: white;
+  text-decoration: none;
+  cursor: default;
+}
+
+.social{
+  display: flex;
+}
+
+.social img{
+  width: 2rem;
+  margin-left: 0.4rem;
 }

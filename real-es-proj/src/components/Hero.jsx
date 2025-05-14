@@ -23,15 +23,15 @@ const Hero = () => {
             <button>Learn More</button>
             <button className="hbtn">Browse Properties</button>
             <div className="reviews">
-              <div className="row">
+              <div className="row one">
                 <h2>200+</h2>
                 <p>Happy Customers</p>
               </div>
-              <div className="row">
+              <div className="row two">
                 <h2>10k+</h2>
                 <p>Properties For Clients</p>
               </div>
-              <div className="row">
+              <div className="row three">
                 <h2>16+</h2>
                 <p>Years Of Experience</p>
               </div>
@@ -46,28 +46,28 @@ const Hero = () => {
         <div className="rows">
           <div className="rows-img">
           <img src={HeroImg1} alt="" />
-          <img src={HeroImg5} className="arrow" alt="" />
+          
           </div>
           <p>Find Your Dream Home</p>
         </div>
         <div className="rows">
         <div className="rows-img">
           <img src={HeroImg1} alt="" />
-          <img src={HeroImg5} className="arrow" alt="" />
+          {/* <img src={HeroImg5} className="arrow" alt="" /> */}
           </div>
           <p>Unlock Property Value</p>
         </div>
         <div className="rows">
         <div className="rows-img">
           <img src={HeroImg1} alt="" />
-          <img src={HeroImg5} className="arrow" alt="" />
+          {/* <img src={HeroImg5} className="arrow" alt="" /> */}
           </div>
           <p>Effortless Property Management</p>
         </div>
         <div className="rows">
         <div className="rows-img">
           <img src={HeroImg1} alt="" />
-          <img src={HeroImg5} className="arrow" alt="" />
+          {/* <img src={HeroImg5} className="arrow" alt="" /> */}
           </div>
           <p>Smart Investment, Informed Decision</p>
         </div>
