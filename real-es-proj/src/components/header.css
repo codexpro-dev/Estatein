@@ -54,18 +54,13 @@ header{
 .ul p{
     padding: 0.3em 1em;
     font-weight: normal;
+    cursor: pointer;
+    transition: .3s ease;
 }
 
 .ul p:hover{
-  border-radius: 8px;
-  border: 1px solid #646cff;
-  padding: 0.27em 1em;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: background-color .3s ease;
-  text-align: center;
-  color: #bab7b7;
+  color: rgb(93, 106, 255);
+  font-weight: bold;
 }
 
 .ul p:focus,

@@ -31,7 +31,7 @@ const Clients = () => {
         <div className="featured-row">
           <div className="featured">
             <div className="ft-row">
-              <div className="rowws-img">
+              <div className="cl-img">
                 <img src={ratings} alt="" />
               </div>
               <div className="ft-row-txt">
@@ -51,7 +51,7 @@ const Clients = () => {
               </div>
             </div>
             <div className="ft-row">
-              <div className="rowws-img">
+              <div className="cl-img">
                 <img src={ratings} alt="" />
               </div>
               <div className="ft-row-txt">
@@ -71,7 +71,7 @@ const Clients = () => {
               </div>
             </div>
             <div className="ft-row">
-              <div className="rowws-img">
+              <div className="cl-img">
                 <img src={ratings} alt="" />
               </div>
               <div className="ft-row-txt">

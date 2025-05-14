@@ -17,7 +17,7 @@ const Faqs = () => {
                     <p>
                       Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and <br /> assist you every step of the way.
                     </p>
-                    <button>View All Faqs</button>
+                    <button>View All FAQs</button>
                   </div>
                 </div>
               </div>

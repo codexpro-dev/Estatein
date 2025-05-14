@@ -49,11 +49,12 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: all 0.3s ease;
 }
 
 button:hover {
-  border-color: #646cff;
+  background-color: rgb(24, 12, 241);
+  border-color: rgba(90, 82, 244, 0.858);
 }
 
 button:focus,

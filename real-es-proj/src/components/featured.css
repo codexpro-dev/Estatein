@@ -38,12 +38,17 @@
   transition: 0.3s ease;
 }
 
+.f-t button:hover {
+  background-color: rgb(24, 12, 241);
+  border-color: rgba(90, 82, 244, 0.858);
+}
+
 .f-t {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
+ 
 .featured {
   width: 100%;
   display: flex;
@@ -164,10 +169,13 @@
   font-size: 12px;
   padding: 1em 3em;
   transition: 0.3s ease;
+  border: none;
+  outline: none;
 }
 
 .ftt-btn button:hover {
   background-color: rgb(95, 90, 240);
+  border: none;
 }
 
 .ft-slide {
@@ -207,6 +215,7 @@
 
 .slide-arr .arrow1:hover{
     background-color: rgba(36, 36, 36, 0.918);
+    cursor: not-allowed;
 }
 
 .slide-arr .arrow2 {

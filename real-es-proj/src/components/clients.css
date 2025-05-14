@@ -40,10 +40,10 @@
     font-size: 13px;
 }
 
-.rowws-img img{
+/* .rowws-img img{
     width: 90%;
-}
+} */
 
-.rowws-img img:hover{
+.cl-img img:hover{
     scale: 1;
 }
