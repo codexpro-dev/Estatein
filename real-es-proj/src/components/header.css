@@ -1,69 +1,127 @@
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: #1a1a1a;
-    position: relative;
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #1a1a1a;
+  position: relative;
 }
 
-.ads{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url("../resources/Abstra.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 2rem;
-    border-bottom: 0.3px solid rgba(145, 141, 141, 0.301);
+.ads {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("../resources/Abstra.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 2rem;
+  border-bottom: 0.3px solid rgba(145, 141, 141, 0.301);
 }
 
-.ads .ad{
+.ads .ad {
   margin-right: 2rem;
   font-weight: normal;
   font-size: 22px;
   cursor: pointer;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
-.ads .ad:hover{
-    color: #ffffff9c;
+.ads .ad:hover {
+  color: #ffffff9c;
 }
 
-.navbar{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 0.3px solid rgba(145, 141, 141, 0.301);
-    padding: 3px 0px;
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 0.3px solid rgba(145, 141, 141, 0.301);
+  padding: 3px 0px;
 }
 
-.logo{
+.logo {
   margin-left: -3rem;
 }
 
-.ul{
-    display: flex;
+.ul {
+  display: flex;
 }
 
-.ul p{
-    padding: 0.3em 1em;
-    font-weight: normal;
-    cursor: pointer;
-    transition: .3s ease;
+.ul p {
+  padding: 0.3em 1em;
+  font-weight: normal;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
-.ul p:hover{
+.ul p:hover {
   color: rgb(93, 106, 255);
   font-weight: bold;
 }
 
 .ul p:focus,
-  .ul p:focus-visible {
-    border: 1px solid white;
+.ul p:focus-visible {
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 1114px) {
+  .logo {
+    margin-left: 0;
   }
+}
+
+@media screen and (max-width: 840px) {
+  header {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    background-color: #1a1a1a;
+    z-index: 22;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 3rem;
+  }
+
+  .h-container {
+    display: flex;
+  }
+
+  .navbar{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+  }
+
+  .ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo img{
+    width: 10rem;
+  }
+
+  .ul p{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .ads{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+}

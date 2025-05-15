@@ -4,7 +4,7 @@ import "../components/header.css"
 const Header = () => {
   return (
     <>
-      <header>
+      {/* <header>
         <div className="ads">
             <div></div>
             <p>✨Discover Your Dream Property with Estatein. <span>Learn More</span></p>
@@ -24,7 +24,7 @@ const Header = () => {
                 <button>Contact Us</button>
             </div>
         </div>
-      </header>
+      </header> */}
     </>
   )
 }
