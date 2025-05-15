@@ -68,60 +68,106 @@ header {
   border: 1px solid white;
 }
 
+.menuB {
+  display: none;
+}
+
+.menub {
+  display: none;
+}
+
 @media screen and (max-width: 1114px) {
   .logo {
     margin-left: 0;
   }
 }
 
-@media screen and (max-width: 840px) {
-  header {
-    position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 25%;
-    background-color: #1a1a1a;
+@media screen and (max-width: 680px) {
+  .menuB {
+    display: block;
+    margin-right: -3rem;
+    cursor: pointer;
+  }
+  .nav {
+    display: flex !important;
+    position: fixed;
     z-index: 22;
-    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    bottom: 0;
+    top: 0;
+    left: -400px;
+    width: 15rem;
+    height: 100vh;
+    /* overflow: hidden; */
+    background-color: #1a1a1a;
   }
 
-  .h-container {
-    display: flex;
+ .navbar .menub{
+    display: block;
   }
 
-  .navbar{
-    padding: 0;
+  .navbar .menub img{
+    width: 2.3rem;
+  }
+
+  .navbar .menuB{
+    display: block;
+    margin: 0 2rem;
+  }
+
+  .navbar .logo{
+    display: block;
+    margin: 1rem 2rem;
+  }
+
+  .nav .ul {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
-    text-align: center;
   }
 
-  .ul{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .logo img{
-    width: 10rem;
-  }
-
-  .ul p{
+  .nav .ul p {
     font-size: 18px;
-    font-weight: bold;
+    padding: 0.7rem 0;
+    margin: 0.5rem 1rem 0.5rem 0;
+    text-align: left;
   }
 
-  .ads{
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+     border: none;
+  }
+
+  .nav .logo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .nav .logo-i{
+    margin-right: 4rem;
+  }
+
+  .navbar .ul{
+    display: none;
+  }
+
+  .navbar .navbtn{
     display: none;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 470px) {
+  .ads{
+    display: none;
+  }
 }
