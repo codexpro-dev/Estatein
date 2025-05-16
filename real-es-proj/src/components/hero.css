@@ -10,6 +10,7 @@
   border-bottom: 0.3px solid rgba(145, 141, 141, 0.301);
 }
 
+
 .hero-text {
   margin-left: 5rem;
   margin-right: 3rem;
@@ -55,8 +56,8 @@
   right: 0;
   bottom: 0;
   width: 85%;
-  background-position: right;
-  background-size: cover;
+  /* background-position: right;
+  background-size: cover; */
 }
 
 .hero-container .dream{
@@ -89,6 +90,7 @@
 }
 
 .review {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -97,6 +99,7 @@
   margin-top: -4rem;
   border-top: 1px solid rgba(255, 255, 255, 0.148);
   border-bottom: 1px solid rgba(255, 255, 255, 0.148);
+  z-index: 22;
 }
 
 .rows {
@@ -132,17 +135,25 @@
   margin-bottom: 0;
 }
 
-/* @media screen and (max-width: 1310px) {
-    .reviews{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+
+@media screen and (max-width: 1210px) {
+  .reviews{
+    display: flex;
+    /* width: 10%; */
   }
 
   .row{
-    margin: 0;
+    /* width: 5rem; */
   }
-}   */
+
+  .h-text h1{
+    font-size: 6vmin;
+  }
+
+  .h-text p{
+    font-size: 1.8vmin;
+  }
+}
 
 @media screen and (max-width: 1090px) {
   .hero-img img {
@@ -152,17 +163,19 @@
 }
 
 @media screen and (max-width: 1110px) {
-  .hero-container {
-  }
-
   .review {
     display: grid;
-    grid-template-columns: 2fr 2fr 1.5fr;
-    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px 5px;
   }
 
   .rows {
-    width: 90%;
+    width: 91%;
+    margin-right: 0;
+  }
+
+  .row{
+ 
   }
 
   .reviews {
@@ -351,4 +364,39 @@
     width: 2.5rem;
 }
 
+}
+
+@media screen and (max-width: 500px) {
+  .review {
+    display:  flex;
+    flex-wrap: wrap;
+    padding-right: 0;
+    gap: 5px 0px;
+  }
+
+  .rows{
+    flex: 1 0 40%;
+    white-space: wrap;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .h-text h1{
+    font-size: 7vmin;
+  }
+
+  .h-text p{
+    font-size: 4vmin;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .review {
+    padding-right: -5px;
+    gap: 5px -2px;
+  }
+.rows{
+    flex: 1 0 50%;
+    white-space: wrap;
+  }
 }

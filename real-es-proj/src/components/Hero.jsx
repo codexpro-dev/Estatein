@@ -44,6 +44,7 @@ const Hero = () => {
           <img src={Dream} className="dream" alt="" />
         </div>
       </div>
+      </div>
       <div className="review">
         <div className="rows">
           <div className="rows-img">
@@ -64,17 +65,17 @@ const Hero = () => {
           <img src={HeroImg1} alt="" />
           {/* <img src={HeroImg5} className="arrow" alt="" /> */}
           </div>
-          <p>Effortless Property Management</p>
+          <p>Effortless Property</p>
         </div>
         <div className="rows">
         <div className="rows-img">
           <img src={HeroImg1} alt="" />
           {/* <img src={HeroImg5} className="arrow" alt="" /> */}
           </div>
-          <p>Smart Investment, Informed Decision</p>
+          <p>Smart Investment Decision</p>
         </div>
       </div>
-      </div>
+      
       </div>
     </>
   );
