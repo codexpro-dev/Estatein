@@ -48,7 +48,7 @@
   align-items: center;
   justify-content: space-between;
 }
- 
+
 .featured {
   width: 100%;
   display: flex;
@@ -204,7 +204,7 @@
   align-items: center;
   border: 1px solid rgba(255, 255, 255, 0.116);
   border-radius: 50%;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .slide-arr .arrow1 img {
@@ -213,9 +213,9 @@
   margin: 0;
 }
 
-.slide-arr .arrow1:hover{
-    background-color: rgba(36, 36, 36, 0.918);
-    cursor: not-allowed;
+.slide-arr .arrow1:hover {
+  background-color: rgba(36, 36, 36, 0.918);
+  cursor: not-allowed;
 }
 
 .slide-arr .arrow2 {
@@ -227,11 +227,11 @@
   border: 1px solid rgba(255, 255, 255, 0.116);
   border-radius: 50%;
   cursor: pointer;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
-.slide-arr .arrow2:hover{
-    background-color: rgba(26, 25, 25, 0.918);
+.slide-arr .arrow2:hover {
+  background-color: rgba(26, 25, 25, 0.918);
 }
 
 .slide-arr .arrow2 img {
@@ -239,3 +239,231 @@
   padding: 0.4rem;
   margin: 0;
 }
+
+@media screen and (max-width: 1200px) {
+  .f-t p {
+    max-width: 80%;
+  }
+  .ft-row .ft-row-txt h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .ft-row .ft-row-txt p {
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .ft-label {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .ft-label p {
+    margin-bottom: 0;
+  }
+
+  .ft-row .ftt-btn button {
+    font-size: 10px;
+    white-space: nowrap;
+    padding: 1rem;
+  }
+
+  .ft-slide {
+    margin: 2rem 3.5rem;
+  }
+
+  .featured-rows {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .featured-row {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .ft-row {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 1022px) {
+  .featured {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .ft-row {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 1px solid rgba(255, 255, 255, 0.116);
+    padding: 1.2rem 1rem;
+    margin: 0 10px;
+    border-radius: 10px;
+  }
+  .ft-row .rowws-img img {
+    width: 100%;
+  }
+
+  .rowws-img img:hover {
+    scale: 1;
+  }
+
+  .f-t p {
+    max-width: 80%;
+  }
+  .ft-row .ft-row-txt h3 {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .ft-row .ft-row-txt p {
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .ft-label {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .ft-label p {
+    margin: 0;
+  }
+
+  .price h3 {
+    font-size: 15px;
+  }
+
+  .ft-row .ftt-btn button {
+    font-size: 10px;
+    white-space: nowrap;
+    padding: 0.8rem 0.5rem;
+  }
+
+  .ft-slide {
+    margin: 2rem 3.5rem;
+  }
+
+  .featured-rows {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .featured-row {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .featured {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem;
+    overflow: hidden;
+  }
+
+  .ft-row {
+    width: 80%;
+    margin-right: 13rem;
+    margin-bottom: 1rem;
+  }
+
+  .rowws-img {
+    width: 100%;
+  }
+
+  .divR {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ft-label {
+    display: none;
+    flex-direction: row;
+    width: 18rem;
+    margin-top: 7rem;
+    margin-left: -16rem;
+  }
+
+  .price h3 {
+    font-size: 18px;
+  }
+
+  .ft-row-txt h3 {
+    font-size: 2.5vmax !important;
+    white-space: nowrap;
+  }
+  .ft-row-txt p {
+    font-size: 2vmax !important;
+  }
+
+  .price h3{
+    font-size: 2vmax;
+  }
+
+  .ftt-btn button{
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .featured-row{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featured-text{
+    padding: 3em 3em;
+  }
+
+  .featured{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .ft-row{
+    margin: 0;
+    margin-bottom: 1em;
+  }
+
+  .f-t{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .ft-view{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .price h3{
+    margin-bottom: 5px;
+  }
+
+  .ftt-btn button{
+    margin-top: 0;
+  }
+}
+
+
+

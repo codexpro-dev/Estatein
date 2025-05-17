@@ -32,12 +32,13 @@ const Featured = () => {
           </div>
         </div>
         <div className="featured-row">
-          <div className="featured">
+            <div className="featured">
             <div className="ft-row">
               <div className="rowws-img">
                 <img src={secImg1} alt="" />
               </div>
-              <div className="ft-row-txt">
+              <div className="divR">
+                <div className="ft-row-txt">
                 <h3>Seaside Serenity Villa</h3>
                 <p>
                   A stunning 4-bedroom, 3-bathroom villa in a <br /> peaceful
@@ -64,11 +65,13 @@ const Featured = () => {
                   <button>View Property Detail</button>
                 </div>
               </div>
+              </div>
             </div>
             <div className="ft-row">
               <div className="rowws-img">
                 <img src={secImg2} alt="" />
               </div>
+              <div className="divR">
               <div className="ft-row-txt">
                 <h3>Metrpolitan Haven</h3>
                 <p>
@@ -96,11 +99,13 @@ const Featured = () => {
                   <button>View Property Detail</button>
                 </div>
               </div>
+              </div>
             </div>
             <div className="ft-row">
               <div className="rowws-img">
                 <img src={secImg3} alt="" />
               </div>
+              <div className="divR">
               <div className="ft-row-txt">
                 <h3>Rustic Retrat Cattage</h3>
                 <p>
@@ -128,8 +133,9 @@ const Featured = () => {
                   <button>View Property Detail</button>
                 </div>
               </div>
+              </div>
             </div>
-          </div>
+          </div>    
         </div>
         <div className="ft-slide">
           <div className="slide-num">
@@ -147,7 +153,7 @@ const Featured = () => {
           </div>
         </div>
       </div>
-    </>
+    </> 
   );
 };
 
