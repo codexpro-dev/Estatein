@@ -151,6 +151,9 @@ const Featured = () => {
               <img src={arrowR} alt="" />
             </div>
           </div>
+          <div className="slide-btn">
+            <button>View All</button>
+          </div>
         </div>
       </div>
     </> 

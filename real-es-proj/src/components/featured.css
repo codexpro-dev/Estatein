@@ -412,9 +412,16 @@
   .ftt-btn button{
     font-size: 14px !important;
   }
+
+  .ft-slide .slide-arr{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 920px) {
+  .f-t p{
+    width: 100%;
+  }
   .featured-row{
     margin: 0;
     display: flex;
@@ -462,6 +469,10 @@
 
   .ftt-btn button{
     margin-top: 0;
+  }
+
+  .ft-slide{
+    margin: 1em 2.5em;
   }
 }
 
@@ -525,5 +536,9 @@
   .ft-row-txt h3{
     padding-bottom: 0 !important;
     padding-bottom: 6px !important;
+  }
+
+  .ft-slide{
+    margin: 1em 1.5em;
   }
 }
