@@ -1,22 +1,22 @@
-.ft-row-txt h3{
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 1.2rem;
-    font-size: 18px;
-    text-align: top;
+.ft-row-txt h3 {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 1.2rem;
+  font-size: 18px;
+  text-align: top;
 }
-.ft-row-txt p{
-    color: rgba(255, 255, 255, 0.591);
-    padding-bottom: 0.5rem;
-}
-
-.ft-label button{
-    border: 1px solid rgba(255, 255, 255, 0.055);
-    transition: .3s ease;
+.ft-row-txt p {
+  color: rgba(255, 255, 255, 0.591);
+  padding-bottom: 0.5rem;
 }
 
-.ft-label button:hover{
-    border: 1px solid rgba(255, 255, 255, 0.201);
+.ft-label button {
+  border: 1px solid rgba(255, 255, 255, 0.055);
+  transition: 0.3s ease;
+}
+
+.ft-label button:hover {
+  border: 1px solid rgba(255, 255, 255, 0.201);
 }
 
 /* .ft-row{
@@ -25,3 +25,25 @@
     justify-content: flex-start;
     text-align: start;
 } */
+
+@media screen and (max-width: 1000px) {
+  .ftl button {
+    font-size: 13px;
+  }
+
+  .ftr {
+    line-break: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+    .ftlab{
+        width: 100%;
+        display: flex;
+    }
+
+    .ftlab button{
+        width: 100%;
+        text-align: center;
+    }
+}
