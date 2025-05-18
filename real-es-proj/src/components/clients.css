@@ -47,3 +47,44 @@
 .cl-img img:hover{
     scale: 1;
 }
+
+@media screen and (max-width: 462px) {
+  .ftrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cl-img{
+    order: 2;
+  }
+
+   .cl-img img{
+    width: 10rem;
+    margin-top: 1em;
+   }
+
+  .fttxt{
+    order: 3;
+    text-align: center;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 402px) {
+  .ft-labell{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lb-pro img{
+    width: 5rem;
+  }
+
+  .lb-txt{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+}

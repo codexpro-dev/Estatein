@@ -30,17 +30,17 @@ const Clients = () => {
         </div>
         <div className="featured-row">
           <div className="featured">
-            <div className="ft-row">
+            <div className="ft-row ftrow">
               <div className="cl-img">
                 <img src={ratings} alt="" />
               </div>
-              <div className="ft-row-txt">
+              <div className="ft-row-txt fttxt">
                 <h3>Exceptional Service!</h3>
                 <p>
                   Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly <br /> recommended!
                 </p>
               </div>
-              <div className="ft-label">
+              <div className="ft-labell">
                 <div className="lb-pro">
                   <img src={proPics} alt="" />
                 </div>
@@ -50,17 +50,17 @@ const Clients = () => {
                 </div>
               </div>
             </div>
-            <div className="ft-row">
+            <div className="ft-row ftrow">
               <div className="cl-img">
                 <img src={ratings} alt="" />
               </div>
-              <div className="ft-row-txt">
+              <div className="ft-row-txt fttxt">
                 <h3>Efficient and Reliable</h3>
                 <p>
                   Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the <br /> results.
                 </p>
               </div>
-              <div className="ft-label">
+              <div className="ft-labell">
                 <div className="lb-pro">
                   <img src={proPics2} alt="" />
                 </div>
@@ -70,11 +70,11 @@ const Clients = () => {
                 </div>
               </div>
             </div>
-            <div className="ft-row">
+            <div className="ft-row ftrow">
               <div className="cl-img">
                 <img src={ratings} alt="" />
               </div>
-              <div className="ft-row-txt">
+              <div className="ft-row-txt fttxt">
                 <h3>Trusted Advisors</h3>
                 <p>
                   The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. <br /> Thank you for your support!
