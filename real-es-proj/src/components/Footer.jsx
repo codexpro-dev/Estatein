@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="sub-footer">
-          <div className="feat-txt">
+          <div className="feat-txt f-ts">
             <h2>Start Your Real Estate Journey Today</h2>
             <div className="f-t-s">
               <p>

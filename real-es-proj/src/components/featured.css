@@ -514,6 +514,7 @@
   }
   .ft-view .price h3{
     margin: 0;
+    font-size: 18px !important;
   }
 
   .ftt-btn button{
