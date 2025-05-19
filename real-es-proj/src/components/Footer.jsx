@@ -5,12 +5,10 @@ import FDesign2 from "../resources/f-Design2.svg";
 import fIcon1 from "../resources/input-i1.svg";
 import fIcon2 from "../resources/input-i2.svg";
 import FLogo from "../resources/Logo.svg";
-import social1 from "../resources/soc1.svg"
-import social2 from "../resources/soc2.svg"
-import social3 from "../resources/soc3.svg"
-import social4 from "../resources/soc4.svg"
-
-
+import social1 from "../resources/soc1.svg";
+import social2 from "../resources/soc2.svg";
+import social3 from "../resources/soc3.svg";
+import social4 from "../resources/soc4.svg";
 
 const Footer = () => {
   return (
@@ -62,7 +60,7 @@ const Footer = () => {
 
           <div className="footer-txt">
             {/* Home */}
-            <div className="ftr">
+            <div className="ftr ftr1">
               <h4>Home</h4>
 
               <p>Hero Section</p>
@@ -72,7 +70,7 @@ const Footer = () => {
               <p>FAQ’s</p>
             </div>
             {/* About Us */}
-            <div className="ftr">
+            <div className="ftr ftr2">
               <h4>About Us</h4>
 
               <p>Our Story</p>
@@ -82,14 +80,14 @@ const Footer = () => {
               <p>Our Cpents</p>
             </div>
             {/* Properties */}
-            <div className="ftr">
+            <div className="ftr ftr3">
               <h4>Properties</h4>
 
               <p>Portfopo</p>
               <p>Categories</p>
             </div>
             {/* Services */}
-            <div className="ftr">
+            <div className="ftr ftr4">
               <h4>Services</h4>
 
               <p>Valuation Mastery</p>
@@ -99,7 +97,7 @@ const Footer = () => {
               <p>Property Management</p>
             </div>
             {/* Contact Us */}
-            <div>
+            <div className="ftr5">
               <h4>Contact Us</h4>
 
               <p>Contact Form</p>
@@ -109,8 +107,10 @@ const Footer = () => {
         </div>
       </footer>
       <div className="copy-write">
-        <div className="copy"> 
-          <p><span>©2023 Estatein. All Rights Reserved.</span>Terms & Conditions</p>
+        <div className="copy">
+          <p>
+            <span>©2023 Estatein. All Rights Reserved.</span>Terms & Conditions
+          </p>
         </div>
         <div className="social">
           <img src={social1} alt="" />
@@ -118,9 +118,7 @@ const Footer = () => {
           <img src={social3} alt="" />
           <img src={social4} alt="" />
         </div>
-        <div>
-          
-        </div>
+        <div></div>
       </div>
     </>
   );
